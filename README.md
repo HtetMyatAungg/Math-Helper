@@ -1,1 +1,5 @@
-# Statistic & Probability Helper
+__init__.py: This file marks the stat_helper folder as a Python package. It imports specific functions like mean, std_dev, and binomial so they can be accessed directly from the main package.
+descriptive.py: This module focuses on descriptive statistics. It contains functions to calculate, Mean: The average of a dataset. Median: The middle value. Mode: The most frequent value in a list.Variance: The spread of the data points. Standard Deviation: The square root of the variance.
+probability.py: This module handles probability calculations. It includes, Factorial: The product of an integer and all integers below it. Combination: Calculates nCr. Binomial: Calculates the probability of a specific number of successes in a sequence of independent experiments.
+utils.py: This acts as a helper file used to validate that the input data is a list of numbers (integers or floats) before processing.
+Visualizing the Binomial Distribution: When you create a graph for the Binomial Distribution, you are visualizing the probability of getting k successes out of n trials.
